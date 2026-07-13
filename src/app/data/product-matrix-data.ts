@@ -116,8 +116,6 @@ export const productMatrixData = [
   includedInAccessPEPM2: "YES",
   changeManagement3: "Available to all active dragon riders."
 },
-
-  {
     {
     productLevelOne: "Dragon Wellness",
     productLevelTwo: "Dragon Wellness",
