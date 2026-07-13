@@ -56,7 +56,7 @@ export function ProductMatrix() {
       {/* Header */}
       <div className="flex-shrink-0 bg-gradient-to-r from-[#1e3a5f] to-[#2d5a8f] text-white p-4 shadow-lg">
         <div className="mx-auto">
-          <h1 className="text-2xl mb-2">Product Matrix: Health Products</h1>
+          <h1 className="text-2xl mb-2">Product Matrix: Caroline's Galaxy</h1>
           <Input
             type="text"
             placeholder="Search products..."
