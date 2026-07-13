@@ -1,9 +1,9 @@
+# Product Matrix (Copy)
 
-  # Stylized Product Matrix (Copy)
+  This is a clone of original app which contained proprietary information. 
+  Proprietary info has been anonymized. 
 
-  This is a code bundle for Stylized Product Matrix (Copy). The original project is available at https://www.figma.com/design/KoRygraDmLOcOL1Yugg9MF/Stylized-Product-Matrix--Copy-.
-
-  ## Running the code
+## Running the code
 
   Run `npm i` to install the dependencies.
 
