@@ -140,8 +140,20 @@ export function ProductMatrix() {
             <TableBody>
               {groupedData.map(({ isGroupStart, row, originalIndex }, idx) => {
                 const productGroup = row.productLevelOne;
-                const rowsInGroup = groupedData.filter(item => item.row.productLevelOne === productGroup);
-                const rowSpan = isGroupStart ? rowsInGroup.length : 0;
+                let rowSpan = 0;
+                
+                if (isGroupStart) {
+                  rowSpan = 1;
+                
+                  for (
+                    let i = idx + 1;
+                    i < groupedData.length &&
+                    groupedData[i].row.productLevelOne === productGroup;
+                    i++
+                  ) {
+                    rowSpan++;
+                  }
+                }
                 
                 // Alternate row colors by group
                 const groupIndex = productMatrixData.findIndex(r => r.productLevelOne === productGroup && r.productLevelTwo === productMatrixData.find(item => item.productLevelOne === productGroup)?.productLevelTwo);
