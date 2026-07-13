@@ -50,9 +50,6 @@ DragonWellness: "#",
 // To use: Set the URL fields to one of these constants
 // ==================================================================================
 export const HYPERLINKS = {
-  HormonalHealthPricing: "https://gsccloud.sharepoint.com/:b:/s/Product439/IQCKcxpLLgm8Qrl6mpjME-HOAaLnUrwq92qvduycAZ54OY0?e=wqJHd1",
-  TelemedicineCalculator: "https://positconnect.gsc-corp.ca/connect/#/login?url=https%3A%2F%2Fpositconnect.gsc-corp.ca%2Fhealth_calculator%2F",
-  MedicalSecondOpinionGuide: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Medical%20Second%20Opinion_ProductGuide_EN.pdf?csf=1&web=1&e=QkLMC7",
 } as const;
 
 // ==================================================================================
