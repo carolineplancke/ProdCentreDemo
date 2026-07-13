@@ -32,18 +32,17 @@
 // To use: Set productGuideUrl to one of these constants (e.g., PRODUCT_GUIDES.MentalHealth)
 // ==================================================================================
 export const PRODUCT_GUIDES = {
-  MentalHealthANDthls: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/1%20GS%20Mental_Health%20and%20Work,%20Health%20and%20Life%20Services_ProductGuide_EN.pdf?csf=1&web=1&e=yiHiLv",
-  PersonalizedNutrition: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Health%20-%20Personalized%20Nutrition%20-%20Product%20Guide%20-%20Nov%2019%202025%20updated.pdf?csf=1&web=1&e=cBecwm",
-  Pharmacy: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GreenShield%20Health-Pharmacy%20Product%20Guide%202025.pdf?csf=1&web=1&e=KpyHut",
-  MedicalSecondOpinion: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Medical%20Second%20Opinion_ProductGuide_EN.pdf?csf=1&web=1&e=Tk1qpz",
-  WellBeing: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Well-Being_ProductGuide_EN.pdf?csf=1&web=1&e=qzCMca",
-  Fertility: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Fertility%20Product%20Guide%20(updated%2014JAN2025).pdf?csf=1&web=1&e=buZGtX",
-  Telemed: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Telemedicine_ProductGuide_EN.pdf?csf=1&web=1&e=B7vTbE",
-  HormonalHealth: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Health%20Product%20Guide%20-%20Hormonal%20Health_Sept-12-2025.pdf?csf=1&web=1&e=WhAUHA",
-  CDM: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Clinician%20Guided%20CDM+ProductGuide_EN.pdf?csf=1&web=1&e=46tCMy",
-  PrevHealthcare: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Preventive%20Health%20Care_ProductGuide_EN.pdf?csf=1&web=1&e=PQlcSF",
-  CareNav: "https://gsccloud.sharepoint.com/:b:/r/sites/AskMe/REFERENCE%20DOCUMENTS/4.%20PRODUCT%20(INTERNAL%20ONLY)/4.0%20GS%20Health%20Products/GS%20Health%20Product%20Guides/GS%20Care%20Navigation_ProductGuide_EN.pdf?csf=1&web=1&e=YYqB98",
-  BlankTemplate5: "",
+DragonWellness: "#",
+  FireBreathingSupport: "#",
+  WingStrength: "#",
+  HoardCoaching: "#",
+  CryptidCare: "#",
+  BigfootNavigation: "#",
+  YetiResilience: "#",
+  SpaceCommute: "#",
+  TimeTravel: "#",
+  UnicornWorkforce: "#",
+  SockRecovery: "#",
 } as const;
 
 // ==================================================================================
@@ -62,16 +61,30 @@ export const HYPERLINKS = {
 // ==================================================================================
 
 export const PM_Role = {
-  Hameed: { name: "Harry", email: "info@info.com" },
-  Elora: { name: "Carol", email: "info@info.com" },
-  Will: { name: "Sid", email: "info@info.com" },
-  Amy: { name: "Mary", email: "info@info.com" },
-  Connor: { name: "Adam", email: "info@info.com" },
-  Amanda: {name: "Amanda", email: "info@info.com"},
-  Ben: {name: "Ben", email: "info@info.com"},
-  Maryam: {name: "Tessa", email: "info@info.com"},
-  Emma: {name: "Emmaline", email: "info@info.com"},
-  EAP_PM: {name: "Yana", email: "info@info.com"},
+Astrid: {
+    name: "Astrid Stormwing",
+    email: "astrid@example.com"
+  },
+
+  Rowan: {
+    name: "Rowan Pinewalker",
+    email: "rowan@example.com"
+  },
+
+  Nova: {
+    name: "Nova Starborne",
+    email: "nova@example.com"
+  },
+
+  Echo: {
+    name: "Echo Tomorrow",
+    email: "echo@example.com"
+  },
+
+  Oliver: {
+    name: "Oliver Socksmith",
+    email: "oliver@example.com"
+  },
 } as const;  
 
 export interface ProductRow {
