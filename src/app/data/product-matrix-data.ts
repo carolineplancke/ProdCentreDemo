@@ -95,17 +95,17 @@ export interface ProductRow {
 
   productManager?: { name: string; email: string }; // Optional PM contact info  // First Column Group - EAP
   includedInCorePEPM: string;
-  canAddIntoProgramWithFee1: string;
+  canAddIntoProgramWithFee1?: string;
   canAddIntoProgramWithFee1Url?: string; // Optional URL for hyperlink
   changeManagement1: string;
   // Second Column Group - HEALTH FOUNDATIONS (INSURANCE ONLY)
   includedInAccessPEPM: string;
-  canAddWithFee2: string;
+  canAddWithFee2?: string;
   canAddWithFee2Url?: string; // Optional URL for hyperlink
   changeManagement2: string;
   // Third Column Group - ACCESS
   includedInAccessPEPM2: string;
-  canAddIntoProgramWithFee3: string;
+  canAddIntoProgramWithFee3?: string;
   canAddIntoProgramWithFee3Url?: string; // Optional URL for hyperlink
   changeManagement3: string;
 }
