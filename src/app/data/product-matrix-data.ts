@@ -292,25 +292,7 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3: "$3.25 PEPM",
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
-},
-  {
-  productLevelOne: "Museum of Lost Socks",
-  productLevelTwo: "Sock Recovery Portal",
-  goLiveDate: "Available now",
-  productGuideUrl: PRODUCT_GUIDES.SockRecovery,
-  productManager: PM_Role.Oliver,
-  includedInCorePEPM: "NO",
-  canAddIntoProgramWithFee1: "$1.25 PEPM",
-  changeManagement1: "Includes advanced dryer tracking.",
-  includedInAccessPEPM: "YES",
-  canAddWithFee2: "",
-  changeManagement2: "Added to Premium Laundry subscribers.",
-  includedInAccessPEPM2: "YES",
-  canAddIntoProgramWithFee3: "",
-  changeManagement3: "Global sock amnesty in effect."
-},
-
-  
+},  
   {
   productLevelOne: "Time Travel Assistance",
   productLevelTwo: "Temporal Support",
