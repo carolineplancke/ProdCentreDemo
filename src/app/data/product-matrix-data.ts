@@ -214,10 +214,7 @@ export const productMatrixData = [
   changeManagement2: "Legacy Yeti programs consolidated.",
   includedInAccessPEPM2: "YES",
   changeManagement3: "Automatically enabled in alpine regions."
-},
-
-  
-  
+},  
   {
   productLevelOne: "Space Commute",
   productLevelTwo: "Interplanetary Transit",
@@ -253,7 +250,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-
   {
   productLevelOne: "Space Commute",
   productLevelTwo: "Asteroid Belt Navigation",
@@ -273,7 +269,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-  
   {
   productLevelOne: "Space Commute",
   productLevelTwo: "Cryosleep Readiness Program",
@@ -328,7 +323,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-
   {
   productLevelOne: "Time Travel Assistance",
   productLevelTwo: "Future Self Coordination",
@@ -348,7 +342,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-
   {
   productLevelOne: "Time Travel Assistance",
   productLevelTwo: "Retroactive Benefits Enrollment",
@@ -368,7 +361,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-
   {
   productLevelOne: "Time Travel Assistance",
   productLevelTwo: "Alternate Universe Navigation",
@@ -388,7 +380,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "Subject to cross-dimensional approval.",
 },
-  
   {
   productLevelOne: "Unicorn Workforce Solutions",
   productLevelTwo: "Horn Maintenance Program",
@@ -579,9 +570,6 @@ export const productMatrixData = [
   canAddIntoProgramWithFee3Url: "",
   changeManagement3: "",
 },
-  
-  
-  
 ];
 
 export const columnGroups = [
